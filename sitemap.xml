@@ -3,11 +3,12 @@
 
   
   <url>
-    <loc>http://example.org/#intro</loc>
+    <loc>http://example.org/#about</loc>
   </url>
   
   <url>
-    <loc>http://example.org/#about</loc>
+    <loc>http://example.org/#design</loc>
+    <lastmod>2018-01-10T10:28:52-08:00</lastmod>
   </url>
   
   <url>
@@ -17,6 +18,7 @@
   
   <url>
     <loc>http://example.org/#</loc>
+    <lastmod>2018-01-10T10:28:52-08:00</lastmod>
     <priority>0</priority>
   </url>
   
