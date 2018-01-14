@@ -112,7 +112,12 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
             
               <article id="Crew">
   <h1>Crew</h1>
-  <p>test22</p>
+  <p>test22
+{{range .Site.Data.crew.csv}}
+      <tr>
+        <td>{{ index $r 0 }}</td>
+        <td>{{ index $r 1 }}</td>
+      </tr></p>
 
 <form method="post" action="#">
 <div class="responsive-embed">
