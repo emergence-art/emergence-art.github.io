@@ -112,6 +112,8 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
             
               <article id="Crew">
   <h1>Crew</h1>
+  <p><div class="responsive-embed">
+<table border="1">
   <table>
     <thead>
       <tr>
@@ -120,16 +122,18 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
       </tr>
     </thead>
     <tbody>
-    {{ $url := "static/tables/Crew.csv" }}
-    {{ $sep := "," }}
+    {{ $url := &ldquo;static/tables/Crew.csv&rdquo; }}
+    {{ $sep := &ldquo;,&rdquo; }}
     {{ range $i, $r := getCSV $sep $url }}
       <tr>
         <td>{{ index $r 0 }}</td>
         <td>{{ index $r 1 }}</td>
       </tr>
     {{ end }}
+</table>
+</div>
     </tbody>
-  </table>
+  </table></p>
 
 </article>
 
