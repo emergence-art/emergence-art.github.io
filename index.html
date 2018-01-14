@@ -47,6 +47,8 @@
                 
                   <li><a href="#design">Design</a></li>
                 
+                  <li><a href="#contact">Contact 2</a></li>
+                
               </ul>
             </nav>
           </header>
@@ -115,6 +117,56 @@ Jenny Guan - Architecture</p>
 </figure>
 
 The egg is beautiful</p>
+
+</article>
+
+            
+              <article id="contact">
+  <h1>Contact</h1>
+  <p><form id="contactform" method="post" action="https://formspree.io/contact@emergencejourney.org">
+    <div class="field half first">
+        <input type="text" name="name" id="name" placeholder="Name"/>
+    </div>
+    <div class="field half">
+        <input type="email" id="email" name="email" placeholder="Email">
+    </div>
+    <div class="field">
+        <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+    </div>
+    <ul class="actions">
+        <li><input type="submit" value="Send message" class="special" /></li>
+        <li><input type="reset" value="Reset" /></li>
+    </ul>
+    <input type="hidden" name="_next" value="?sent#formspree" />
+    <input type="hidden" name="_subject" value="Subject for your mail like new message" />
+    <input type="text" name="_gotcha" style="display:none" />
+</form>
+<span id="contactformsent">Thank you for your message</span></p>
+
+<script>
+$(document).ready(function($) { 
+    $(function(){
+        if (window.location.search == "?sent") {
+            $('#contactform').hide();
+            $('#contactformsent').show();
+        } else {
+            $('#contactformsent').hide();
+        }
+    });
+});
+</script>
+
+<ul class="icons">
+
+	<li><a href="#" class="icon fa-twitter"><span class="label">twitter</span></a></li>
+
+	<li><a href="https://www.facebook.com/groups/2021207738157904/" class="icon fa-facebook"><span class="label">facebook</span></a></li>
+
+	<li><a href="#" class="icon fa-instagram"><span class="label">instagram</span></a></li>
+
+	<li><a href="#" class="icon fa-github"><span class="label">github</span></a></li>
+
+</ul>
 
 </article>
 
