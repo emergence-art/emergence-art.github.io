@@ -112,7 +112,14 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
             
               <article id="Crew">
   <h1>Crew</h1>
-  <p>test22</p>
+  <p>test23</p>
+
+<p>{{range $i, $r := getCSV &ldquo;\r&rdquo; &ldquo;/rolodex.csv&rdquo;}}
+{{$c := split (index . 0) &ldquo;,&rdquo;}}
+<dt>{{index $c 0}}</dt>
+<dd>{{index $c 1}}<dd>
+<dd>{{index $c 2}}<dd>
+{{end}}</p>
 
 <p>#<form method="post" action="#">
 <div class="responsive-embed">
