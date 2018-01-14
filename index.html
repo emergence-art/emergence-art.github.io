@@ -112,7 +112,26 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
             
               <article id="Crew">
   <h1>Crew</h1>
-  <p>Vitaly Winter - Lead Artist and Electrical
+  <table>
+    <thead>
+      <tr>
+      <th>Name</th>
+      <th>Role</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{ $url := "/tables/Crew.csv" }}
+    {{ $sep := "," }}
+    {{ range $i, $r := getCSV $sep $url }}
+      <tr>
+        <td>{{ index $r 0 }}</td>
+        <td>{{ index $r 1 }}</td>
+      </tr>
+    {{ end }}
+    </tbody>
+  </table>
+
+<p>Vitaly Winter - Lead Artist and Electrical
 Jean-Michel Fabregon - Project Lead and Design
 Liza Shanks - Project Management
 Aaron Rabideau Storytelling - Graphic Designer
