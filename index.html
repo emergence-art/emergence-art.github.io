@@ -123,7 +123,7 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
       </tr>
     </thead>
     <tbody>
-    {{ $url := &ldquo;<a href="http://emergencejourney.org/static/tables/Crew.csv&quot;">http://emergencejourney.org/static/tables/Crew.csv&quot;</a> }}
+    {{ $url := &ldquo;static/tables/Crew.csv&rdquo; }}
     {{ $sep := &ldquo;,&rdquo; }}
     {{ range $i, $r := getCSV $sep $url }}
       <tr>
