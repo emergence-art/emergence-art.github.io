@@ -112,17 +112,23 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
             
               <article id="Crew">
   <h1>Crew</h1>
-  <p>test24</p>
-
-<p>{{ range $i, $r := getCSV &ldquo;,&rdquo; &ldquo;data/crew.csv&rdquo; }}
- <div class = "{{ index $r 4 }}">
- <span> {{ index $r 0 }}</span>
- <span> {{ index $r 1 }}</span>
- <span> {{ index $r 2 }}</span>
- <span> {{ index $r 3 }}</span>
- </div>
- <img src = "{{ index $r 5}}">
-{{end}}</p>
+  <p>test25
+<table>
+  <thead>
+      {{ .Inner }}
+  </thead>
+  <tbody>
+  {{ $url := (index static/test_data.csv) }}
+  {{ $sep := &ldquo;,&rdquo; }}
+  {{ range $row_i, $row := getCSV $sep $url }}
+  <tr>
+    {{ range $col_i, $col := $row }}
+    <td>{{ $col }}</td>
+    {{ end }}
+  </tr>
+  {{ end }}
+  </tbody>
+</table></p>
 
 <div class="responsive-embed">
 <table border="1">
