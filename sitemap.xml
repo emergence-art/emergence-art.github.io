@@ -3,10 +3,6 @@
 
   
   <url>
-    <loc>http://emergencejourney.org/#contact</loc>
-  </url>
-  
-  <url>
     <loc>http://emergencejourney.org/#Birth</loc>
   </url>
   
@@ -20,6 +16,10 @@
   
   <url>
     <loc>http://emergencejourney.org/#design</loc>
+  </url>
+  
+  <url>
+    <loc>http://emergencejourney.org/#contact</loc>
   </url>
   
   <url>
