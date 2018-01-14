@@ -112,24 +112,9 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
             
               <article id="Crew">
   <h1>Crew</h1>
-  <p>test25
-<table>
-  <thead>
-      {{ .Inner }}
-  </thead>
-  <tbody>
-  {{ $url := (index static/test_data.csv) }}
-  {{ $sep := &ldquo;,&rdquo; }}
-  {{ range $row_i, $row := getCSV $sep $url }}
-  <tr>
-    {{ range $col_i, $col := $row }}
-    <td>{{ $col }}</td>
-    {{ end }}
-  </tr>
-  {{ end }}
-  </tbody>
-</table></p>
+  <p>test26</p>
 
+<form method="post" action="#">
 <div class="responsive-embed">
 <table border="1">
   <table>
@@ -140,29 +125,8 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
       </tr>
     </thead>
     <tbody>
-{{range $i, $r := getCSV "\r" "/crew.csv"}}
-{{$c := split (index . 0) ","}}
-<dt>{{index $c 0}}</dt>
-<dd>{{index $c 1}}<dd>
-<dd>{{index $c 2}}<dd>
-{{end}}
-</tbody>
-</table>
-</div>
-
-<p>#<form method="post" action="#">
-<div class="responsive-embed">
-<table border="1">
-  <table>
-    <thead>
-      <tr>
-      <th>Name</th>
-      <th>Role</th>
-      </tr>
-    </thead>
-    <tbody>
-    {{ $url := &ldquo;static/tables/Crew.csv&rdquo; }}
-    {{ $sep := &ldquo;,&rdquo; }}
+    {{ $url := (index static/test_data.csv) }}
+    {{ $sep := "," }}
     {{ range $i, $r := getCSV $sep $url }}
       <tr>
         <td>{{ index $r 0 }}</td>
@@ -171,9 +135,9 @@ Human life is not just intelligence, but it is the legend of life on earth itsel
     {{ end }}
     </tbody>
 </table>
-</div></p>
+</div>
 
-<p>#</form></p>
+</form>
 
 </article>
 
