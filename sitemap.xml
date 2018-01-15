@@ -3,19 +3,19 @@
 
   
   <url>
-    <loc>http://emergencejourney.org/#Birth</loc>
-  </url>
-  
-  <url>
     <loc>http://emergencejourney.org/#Concept</loc>
   </url>
   
   <url>
-    <loc>http://emergencejourney.org/#Crew</loc>
+    <loc>http://emergencejourney.org/#Birth</loc>
   </url>
   
   <url>
     <loc>http://emergencejourney.org/#design</loc>
+  </url>
+  
+  <url>
+    <loc>http://emergencejourney.org/#Crew</loc>
   </url>
   
   <url>
