@@ -43,9 +43,9 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-#video {
-    width: 700px;
-    height: 394px;
+video {
+  width: auto    !important;
+  height: 20rem   !important;
 }
 
 /* Basic */
@@ -56,9 +56,9 @@ body {
     min-width: 320px;
   }
 
-  #video {
+  video {
     width: auto !important;
-    height: 12rem !important;
+    height: 10rem !important;
   }
 
   #logo {
@@ -102,7 +102,7 @@ body, input, select, textarea {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.65; }
+  line-height: 1.5; }
 
 a {
   -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -1117,7 +1117,7 @@ button {
         background-color: rgba(255, 255, 255, 0.175); }
   @media screen and (max-width: 736px) {
     #main article {
-      padding: 3.5rem 2rem 0.5rem 2rem ; }
+      padding: 0.5rem 2rem 0.5rem 2rem ; }
       #main article .close:before {
         top: 0.875rem;
         left: 0.875rem;
