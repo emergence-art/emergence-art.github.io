@@ -51,7 +51,7 @@ body {
 /* Basic */
 @-ms-viewport {
   width: device-width; }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 440px) {
   html, body {
     min-width: 320px;
   }
@@ -102,7 +102,7 @@ body, input, select, textarea {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.65; }
+  line-height: 1.5; }
 
 a {
   -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -128,7 +128,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.2;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0.2rem; }
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     width: -ms-max-content;
     width: max-content;
     padding-bottom: 0.5rem;
-    margin: 0 0 2rem 0; }
+    margin: 0 0 1rem 0; }
 
 h1 {
   font-size: 2.25rem;
