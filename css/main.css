@@ -44,8 +44,8 @@ body {
   box-sizing: border-box; }
 
 video {
-  width: auto    !important;
-  height: 20rem   !important;
+  width: 700px    !important;
+  height: 394px   !important;
 }
 
 /* Basic */
