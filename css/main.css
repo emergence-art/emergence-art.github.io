@@ -43,9 +43,9 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-video {
-  width: 700px    !important;
-  height: 394px   !important;
+#video {
+    width: 700px;
+    height: 394px;
 }
 
 /* Basic */
@@ -56,9 +56,9 @@ video {
     min-width: 320px;
   }
 
-  video {
+  #video {
     width: auto !important;
-    height: 10rem !important;
+    height: 12rem !important;
   }
 
   #logo {
@@ -102,7 +102,7 @@ body, input, select, textarea {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 1.65; }
 
 a {
   -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -142,8 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     width: -ms-max-content;
     width: max-content;
     padding-bottom: 0.5rem;
-	padding-top: 0rem;
-    margin: 0 0 0.5rem 0; }
+    margin: 0 0 2rem 0; }
 
 h1 {
   font-size: 2.25rem;
@@ -436,10 +435,10 @@ input[type="radio"] + label:before {
 
 /* Box */
 .box {
-  border-radius: 10px;
+  border-radius: 4px;
   border: solid 1px #ffffff;
   margin-bottom: 2rem;
-  padding: 0.5em; }
+  padding: 1.5em; }
   .box > :last-child,
   .box > :last-child > :last-child,
   .box > :last-child > :last-child > :last-child {
@@ -927,7 +926,7 @@ button {
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
       transition-delay: 0.25s;
-      padding: 1rem 1rem;
+      padding: 3rem 2rem;
       max-height: 40rem;
       overflow: hidden; }
       #header .content .inner > :last-child {
@@ -1005,14 +1004,14 @@ button {
       #header .logo .icon:before {
         font-size: 1.75rem; }
     #header .content .inner {
-      padding: 1.5rem 1rem; }
+      padding: 2.5rem 1rem; }
     #header .content p {
       line-height: 1.875; } }
   @media screen and (max-width: 480px) {
     #header {
       padding: 1.5rem 0; }
       #header .content .inner {
-        padding: 1.5rem 0; }
+        padding: 2.5rem 0; }
       #header nav ul {
         -moz-flex-direction: column;
         -webkit-flex-direction: column;
@@ -1071,7 +1070,7 @@ button {
     -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
     -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
     transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-    padding: 0.5rem 2.5rem 1.5rem 2.5rem ;
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
     position: relative;
     width: 60rem;
     max-width: 100%;
@@ -1118,7 +1117,7 @@ button {
         background-color: rgba(255, 255, 255, 0.175); }
   @media screen and (max-width: 736px) {
     #main article {
-      padding: 0.5rem 2rem 0.5rem 2rem ; }
+      padding: 3.5rem 2rem 0.5rem 2rem ; }
       #main article .close:before {
         top: 0.875rem;
         left: 0.875rem;
@@ -1127,7 +1126,7 @@ button {
         background-size: 14px 14px; } }
   @media screen and (max-width: 480px) {
     #main article {
-      padding: 0.0rem 1.5rem 0.5rem 1.5rem ; } }
+      padding: 3rem 1.5rem 0.5rem 1.5rem ; } }
 
 /* Footer */
 #footer {
@@ -1165,3 +1164,8 @@ button {
       padding: 2rem;
   }
 /*# sourceMappingURL=main.css.map */
+.powr-countdown-timer {
+    top: -200px;
+    position: relative;
+    margin-bottom:  0px;
+}
