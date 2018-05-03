@@ -44,8 +44,8 @@ body {
   box-sizing: border-box; }
 
 video {
-  width: auto    !important;
-  height: 20rem   !important;
+  width: 700px    !important;
+  height: 394px   !important;
 }
 
 /* Basic */
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     width: max-content;
     padding-bottom: 0.5rem;
 	padding-top: 0rem;
-    margin: 0 0 2rem 0; }
+    margin: 0 0 0.5rem 0; }
 
 h1 {
   font-size: 2.25rem;
